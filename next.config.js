@@ -1,10 +1,10 @@
 function getSketchesCount() {
-  const fs = require('fs')
-  const sketchesCount = fs.readdirSync('./sketches').length - 1
-  return sketchesCount
+  const fs = require("fs");
+  const sketchesCount = fs.readdirSync("./sketches").length - 1;
+  return sketchesCount;
 }
 
-const sketchesCount = getSketchesCount()
+const sketchesCount = getSketchesCount();
 
 const nextConfigs = {
   // Will be available on both server and client
@@ -13,22 +13,22 @@ const nextConfigs = {
   },
 
   exportPathMap: async function (defaultPathMap) {
-    const myPathMap = {}
-    const range = (n) => Array.from({length: n}, (v, k) => k);
-    for(const _i of range(sketchesCount)) {
-      const i = _i+1
+    const myPathMap = {};
+    const range = (n) => Array.from({ length: n }, (v, k) => k);
+    for (const _i of range(sketchesCount)) {
+      const i = _i + 1;
       myPathMap[`/s/${i}`] = {
-        page: 'p5page',
+        page: "p5page",
         query: {
           sketchId: i,
-        }
-      }
+        },
+      };
     }
     return {
-      '/': { page: '/' },
-      ...myPathMap
-    }
-  }
-}
+      "/": { page: "/" },
+      ...myPathMap,
+    };
+  },
+};
 
-module.exports = nextConfigs
+module.exports = nextConfigs;
