@@ -36,7 +36,7 @@ class IndexPage extends Component {
                     className="primary-button"
                     onClick={() => Router.pushRoute(`/s/${ind}`)}
                   >
-                    View {ind}
+                    Algo {ind}
                   </a>
                 </div>
               );
