@@ -1,23 +1,45 @@
-# daily-p5
+# Algo-blitz
 
-A gallery website for making p5.js sketches built with Next.js. Just fork and edit how you want.
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/basilk76/Algo-blitz?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/basilk76/Algo-blitz?style=flat&logo=appveyor)
+  
+  Check out the badges hosted by [shields.io](https://shields.io/).
+  
+  
+  ## Description 
+  
+  *The what, why, and how:* 
+  
+  Looking to learn how to visualize Algorithms, this website is perfect for visual learners.
 
-Deployed [here with Vercel](https://daily-p5-aunnnn.vercel.app/)
-
-NOTE: Unlike pure p5.js where you can access draw function globally, you have to use variable `p` to draw. (E.g., `p.rect(...)`, `p.line(...)`, etc.)
-
-### How to run
-
-1. `npm install`
-2. `npm run dev`
-3. Go to `http://localhost:3000`
-
-### Make a new sketch
-
-1. `npm run new-sketch`, it automatically creates a new js file for a sketch in the format of dn.js, e.g., `d1.js`, `d2.js`, ...
-2. Code!
-
-### Navigation
-
-- Go to `http://localhost:3000` to view all sketches. 
-- Go to `http://localhost:3000/s/1` to view `d1.js` sketch.
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [License](#license)
+  
+  ## Installation
+  
+  *Steps required to install project and how to get the development environment running:*
+  
+  clone Repo, Run npm install
+  
+  ## Usage 
+  
+  *Instructions and examples for use:*
+  
+  Simply selectwhich Algorithm you'd like to visualize
+  
+  ## License
+  
+  MIT License
+  
+  ---
+  
+  ## Questions?
+  
+  ![Developer Profile Picture](https://avatars.githubusercontent.com/u/45275512?v=4) 
+  
+  For any questions, please contact me with the information below:
+ 
+  GitHub: [@basilk76](https://api.github.com/users/basilk76)
+  
